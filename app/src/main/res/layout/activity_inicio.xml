@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@drawable/bck"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bck" />
+
+    <TextView
+        android:id="@+id/Text"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView"
+        android:layout_alignRight="@id/myImageView"
+        android:layout_alignBottom="@+id/myImageView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center"
+        android:text="InfoSalud"
+        android:textColor="#E74C3C"
+        android:textSize="50dp" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/Text"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/ambulance"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/ambulancia1" />
+
+        <ImageButton
+            android:id="@+id/pills"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/medicinas" />
+
+        <ImageButton
+            android:id="@+id/nearme"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:background="@drawable/hospital" />
+
+        <ImageButton
+            android:id="@+id/aboutus"
+            android:layout_width="46dp"
+            android:layout_height="94dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:background="@drawable/sobre_nosotros"
+            android:scaleType="fitCenter" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/grid"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="Proyecto Final"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

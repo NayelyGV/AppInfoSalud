@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AmbulanciaActivity">
+
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0c24"
+        android:text="Servicio de Ambulancia"
+        android:textAlignment="center"
+        android:textColor="#0d0002"
+        android:textSize="40dp" />
+
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:id="@+id/Ambulancia1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Clinica Foianini:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadetailles1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarabulancias1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadetailles1"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/Ambulancia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Clínica Buena Salud:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadetalles2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Ambulacia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadetalles2"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout3"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/Ambulancia3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="13dp"
+            android:text="Clínica Niño Jesús:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/detalleambulancia3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detalleambulancia3"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout4"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/Ambulancia4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="13dp"
+            android:text="Clínica Incor:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadealles4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadealles4"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="11dp">
+
+        <TextView
+            android:id="@+id/Ambulancia5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Hospital San Juan de Dios:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadetalles5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia5"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadetalles5"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout7"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="7dp">
+
+        <TextView
+            android:id="@+id/Ambulancia7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Hospital Japones:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadetalles7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia7"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadetalles7"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout6"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="7dp">
+
+        <TextView
+            android:id="@+id/Ambulancia6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="13dp"
+            android:text="Hospital Obrero:"
+            android:textColor="#0d0002"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ambulanciadetalles6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Ambulancia6"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="11dp"
+            android:text="Ambulancia"
+            android:textColor="#0d0002"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/llamarambulancia6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ambulanciadetalles6"
+            android:layout_marginLeft="20dp"
+            android:text="LLAMAR" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/imagambu2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="93dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="6dp"
+        app:srcCompat="@drawable/imagambu1" />
+
+
+</RelativeLayout>

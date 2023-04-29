@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailEnfermedad4">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MEDICINA PARA LA TUBERCULOSIS:-
+"
+        android:textAlignment="center"
+        android:textColor="?attr/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:text="TUBERCULOSIS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="¿QUE ES LA TUBERCULOSIS?:-
+        Enfermedad infecciosa, provocada por un bacilo, que se transmite a través del aire y que se caracteriza por la formación de tubérculos o nódulos en los tejidos infectados; puede afectar a diferentes órganos del cuerpo, en especial a los pulmones
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:text="SINTOMAS:-
+        tos intensa que dura 3 semanas o más, dolor en el pecho, tos con sangre o esputo, debilidad o fatiga, pérdida de peso, falta de apetito, escalofríos, fiebre, sudores nocturnos.
+-	Prevención: la vacuna BCG sirve para prevenir las formas graves de tuberculosis (meningitis tubérculos o tuberculosis diseminada).
+
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:text="PREVENCION:-
+        la vacuna BCG sirve para prevenir las formas graves de tuberculosis (meningitis tubérculos o tuberculosis diseminada).
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:text="DIAGNOSTICO:-
+        Con un estudio muy sencillo en donde se analiza la expectoración.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6"
+        android:text="TRATAMIENTO:-
+        sSe realiza con 4 antibióticos durante varios meses. Bajo tratamiento, los síntomas suelen mejoran en 2 a 3 semanas y la persona puede curarse entre los 6 y 12 meses.
+        El pronóstico es excelente si la tuberculosis pulmonar se diagnostica a tiempo y el tratamiento se inicia rápidamente.
+        Si la persona tiene alguna enfermedad del sistema inmunológico, debe tratarse también esa enfermedad.
+
+
+
+
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+</RelativeLayout>

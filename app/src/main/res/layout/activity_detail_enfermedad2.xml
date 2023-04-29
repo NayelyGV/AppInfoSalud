@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailEnfermedad2">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MEDICINA PARA LA ANEMIA:-
+"
+        android:textAlignment="center"
+        android:textColor="?attr/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:text="ANEMIA"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="¿QUE ES LA ANEMIA?:-
+        Es la disminución de la cantidad normal de glóbulos rojos en la sangre.
+        Existen diferentes tipos de anemia: hemolíticas, ferropénicas, talasemias, megaloblásticas, etc.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:text="SINTOMAS:-
+         o	Generales: cansancio, falta de apetito, falta de aire, dificultad para hacer ejercicio, palidez de la piel y de las mucosas, mareos.
+o	Manifestaciones cardíacas: aumento de la frecuencia cardíaca (aceleración del pulso).
+o	Manifestaciones neurológicas: dolor de cabeza, alteración de la conducta, trastornos visuales.
+o	Otros: falta de menstruación, alteraciones digestivas.
+
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:text="PREVENCION:-
+        Consumir una dieta sana y completa, sobre todo en ciertas etapas de la vida (infancia, adolescencia, vejez) y durante el embarazo, que son momentos en los cuales existen altos requerimientos de ciertos nutrientes, como el hierro y el ácido fólico.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:text="DIAGNOSTICO:-
+        o	Análisis de sangre: número de glóbulos rojos, hematocrito y hemoglobina.
+o	Pruebas adicionales: se estudia la cantidad de hierro en sangre y de enzimas de transporte del mismo, el nivel de ácido fólico y ciertos compuestos que permiten conocer el funcionamiento de la tiroides (por ejemplo TSH, T4), de los riñones (creatinina) y del hígado (transaminasa, bilirrubina).
+o	Si no se encuentra la causa, puede realizarse una biopsia de medula ósea.
+
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6"
+        android:text="TRATAMIENTO:-depende de su causa.
+o	Si la anemia se debe a pérdidas de sangre, en algunos casos hay que reponerla por medio de una transfusión.
+o	Si la anemia se debe a enfermedades crónicas, como la insuficiencia renal, se debe tratar la enfermedad de base. A veces, es necesaria la administración de eritropoyetina, una hormona que estimula la formación de glóbulos rojos
+
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+</RelativeLayout>

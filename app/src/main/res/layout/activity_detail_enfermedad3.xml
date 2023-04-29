@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailEnfermedad3">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="MEDICINA PARA LA CONJUNTIVITIS:-
+"
+        android:textAlignment="center"
+        android:textColor="?attr/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t1"
+        android:text="CONJUNTIVITIS"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t2"
+        android:text="¿QUE ES LA CONJUNTIVITIS?:-
+        Es una inflamación o una infección en la membrana transparente (conjuntiva) que recubre el párpado y la parte blanca del globo ocular.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t3"
+        android:text="SINTOMAS:-
+        Los más frecuentes son enrojecimiento en uno o ambos ojos, picazón en uno o ambos ojos, una sensación arenosa en uno o ambos ojos, secreción en uno o ambos ojos que forma una costra durante la noche, la cual puede impedir que abras un ojo o ambos a la mañana, lagrimeo.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t4"
+        android:text="PREVENCION:-
+        Lavarse las manos a menudo con jabón y agua tibia, evitar tocarse o frotarse los ojos, no usar el mismo dispensador / botella de gotas para los ojos infectados y no infectados, lavar las fundas de almohadas, sábanas, paños y toallas a menudo en agua caliente y detergente. Lávate las manos después de manejar tales artículos, limpiar los anteojos, teniendo cuidado de no contaminar los artículos (como toallas de mano) que puedan compartir otras personas, limpia, almacena y reemplaza tus lentes de contacto, según las instrucciones de tu profesional de visión.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:text="DIAGNOSTICO:-
+        En la mayoría de casos, el médico puede diagnosticar la conjuntivitis haciendo preguntas sobre tus síntomas y tu antecedentes médicos recientes. En raras ocasiones, el médico puede tomar una muestra del líquido que drena del ojo para analizarlo en el laboratorio (cultivo). Es posible que necesites un cultivo si tus síntomas son graves o si el médico sospecha una causa de alto riesgo.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t6"
+        android:text="TRATAMIENTO:-
+        El médico puede recomendarte usar lágrimas artificiales, limpiar los párpados con un paño húmedo y aplicar compresas frías o tibias varias veces al día.
+"
+        android:textAlignment="center"
+        android:textSize="17sp" />
+
+</RelativeLayout>
